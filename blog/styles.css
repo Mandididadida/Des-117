@@ -1,0 +1,536 @@
+* {
+    box-sizing: border-box;
+}  
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1efe9;         
+    color: #2a241e;            
+    line-height: 1.6;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+header{
+    background-image: url("images/mushroom.jpg");
+    height: 280px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    padding: 18px;
+    text-align: center;
+    position: relative;
+    /* height: 280px; */
+    /* display: flex;
+    /* align-items: flex-end;   */
+    /* justify-content: center; */ 
+    /* padding: 18px;
+
+    text-align: center; */ 
+}
+
+.playfair-display-700{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.index h1{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.8em;
+    margin: 0;
+    color: #f1efe9;
+    background: rgba(42, 36, 30, 0.70);  
+    padding: 8px 14px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+
+.post header h1{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.8em;
+    margin: 0;
+    color: #f1efe9;
+    background: rgba(42, 36, 30, 0.70);  
+    padding: 8px 14px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 56px;
+}
+
+nav{
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 18px;
+    margin-top: 20px;
+}
+
+
+nav ul{
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+    background: #e7e2d8;    
+    border: 2px solid #8a7a69;   
+    border-radius: 12px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 8px;
+    width: 100%;
+    justify-content: space-between;
+   
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #2a241e;          
+    background: #f6f4ee;        
+    border: 1px solid #9a8a78; 
+    border-radius: 20px;
+    padding: 8px 6px;
+    text-align: center;
+    font-size: 0.95em;
+    line-height: 1.2;
+    
+    
+}
+nav ul li {
+  flex:1;
+  display: block;
+  flex-grow: 1;
+  max-width: 100%;
+  width: 100%;
+}
+
+nav ul li a:hover{
+    background: #2f5d3a;        
+    color: #f1efe9;
+    border: 1px solid #2f5d3a;
+}
+
+ section{
+    display: flex;
+    flex-wrap: grid;
+    gap: 18px;
+    align-items: start;
+
+}
+
+
+
+article{
+    background: #fbfaf6;
+    border: 2px solid #8a7a69;
+    border-radius: 14px;
+    padding: 18px;
+     margin: 14px 0;
+    gap: calc(auto auto 20px 20px); 
+}
+
+article h2{
+    margin: 0 0 10px 0;
+    color: #2a241e;
+}
+
+
+article img{
+    /* display: block; */
+    width: 100%;
+    /* max-width: 100%; */
+    border-radius: 12px;
+    border: 2px solid #8a7a69;
+    margin: 10px 0;
+}
+
+
+time{
+    display: block;
+    color: #5f564e;            
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+
+/* article a{
+    color: #18671a;            
+    /* text-decoration: none; */
+    /* font-weight: bold;
+}
+
+
+article a:hover{
+    color: #45b847;
+    text-decoration: underline;
+} */ 
+
+article nav {
+  padding: 0;
+  margin-top: 12px;
+}
+
+article nav a {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  color: #18671a;
+  background: #f6f4ee;
+  border: 1px solid #9a8a78;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 16px;
+}
+
+footer{
+    margin-top: 18px;
+    padding: 14px;
+    background: #e7e2d8;
+    border: 2px solid #8a7a69;
+    border-radius: 12px;
+    text-align: center;
+}
+
+footer p{
+    margin: 6px 0;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
+footer a{
+    color: #6b4b2d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #7c654f;
+    text-decoration: underline;
+}
+
+
+/* body .post{
+    background: #e5c68f;  
+} */
+
+.post section article{
+    max-width: 760px;
+    margin: 24px auto;
+    padding: 28px;
+    background: #eae3d3;  
+    border: 2px solid #62503f;
+    font-family:'Oleo Script' , cursive;
+    font-size: 22px;
+}
+
+.post article h2{
+    font-size: 1.9em;
+    color: #6f5e49;
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+}
+
+.post article h3{
+    color: #6f5e49;
+    font-family: 'Oleo Script', cursive;    
+}
+.post article p{
+    margin: 18px 0;
+    font-size: 1.08em;
+    color: #766351;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+}
+
+.post nav ul{
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    font-family:'Fredericka the Great', cursive;
+    font-size: 24px;
+    color: #816a4f;
+}
+.post time{
+    font-size: 0.9em;
+    color: #4a3f36;
+}
+
+.post article img{
+    border-radius: 20px;
+    border: 2px solid #6f5f4f;
+    margin: 18px 0 22px 0;
+}
+
+/* .post ul{
+    background: #dcd4c8;
+    border: 2px solid #6f5f4f;
+} */
+
+#buttons a {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Fredericka the Great', cursive;
+    text-decoration: none;
+    font-size: 15px;
+    color: #5c5044;          
+    background: #f6f4ee;        
+    border: 1px solid #9a8a78; 
+  }
+
+#buttons a:hover {
+    background: #2f5d3a;        
+    color: #f1efe9;
+    border: 1px solid #2f5d3a;
+}
+
+
+
+  nav  ul li a{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    padding: 12px;
+    border-radius: 10px;
+  }  
+
+  section{
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 18px;
+    align-items: start;
+    padding: 0 18px;
+  }
+
+  section article{
+    margin: auto;
+  }
+
+  section article img{
+    height: 280px;
+    object-fit: cover;
+  }
+
+  /* nav section article{
+    flex: 1 1 calc(50% - 18px);
+    margin: 0;
+  }
+
+  nav section article img{
+    height: 280px;
+    object-fit: cover;
+  } */
+
+
+/* 
+.Home {
+  justify-content: center;
+}
+
+.Post2 {
+  justify-content: flex-end;
+} */
+
+.index header h1{
+    font-size: 2.8em;
+    margin: 0;
+    color: #f1efe9;
+    background: rgba(42, 36, 30, 0.70);  
+    padding: 8px 14px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 56px;
+}
+.index main section article h2{
+    font-size: 1.9em;
+    color: #7a5f40;
+    font-family: 'Oleo Script', cursive;
+    font-size: 36px;
+}
+.index main section article p{
+    margin: 18px 0;
+    font-size: 1.08em;
+    color: #625140;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+}
+
+.index main section article a{
+    color: #755d42;
+    font-family:  'Fredericka the Great', cursive;
+    font-size: 24px;
+}
+/* <!--阅读更多按钮--> */
+
+.index ul li a{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    font-family:'Fredericka the Great', cursive;
+    font-size: 16px;
+    color: #533512;
+  }
+
+/* .nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  padding: 20px;
+} */
+
+
+
+/* article nav {
+  padding: 0;
+  margin-top: 12px;
+}
+
+article nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* padding: 10px 12px; */
+  /* border-radius: 6px;
+  text-decoration: none;
+  color: #18671a;            
+  background: #f6f4ee;        
+  border: 1px solid #9a8a78; 
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 16px;
+} */ 
+article nav {
+    padding: 0;
+    margin-top: 14px;
+}
+
+article nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 8px;
+    text-decoration: none;
+    background: #f6f4ee;
+    border: 1px solid #9a8a78;
+    color: #533512;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 16px;
+}
+
+a {
+  color:#18671a;
+}
+@media only screen and (min-width:600px) {
+
+  /* nav section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;           
+  } */
+    /* body{
+        max-width: 1000px;
+        margin: 0 auto;
+    } */
+
+  nav ul{
+    /* display: grid; */
+    /* grid-template-columns: repeat(5, 1fr); */
+    gap: 14px;
+
+  }
+
+  nav a{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  article nav a {
+    display: flex;
+  }
+
+  body{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* nav ul li{
+    margin: 0;
+    } */
+  main section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    align-items: start;
+  }
+
+  main section article{
+    margin: 0;
+  }
+
+  main section article img{
+    height: 280px;
+    object-fit: cover;
+  }
+
+  /* .postssec1 {
+  display: flex;
+  gap: 20px;
+
+}
+.postssec2 {
+  display: flex;
+gap: 20px;
+} */
+article{
+  flex: 1;
+  height: auto;
+  margin-bottom: 20px;
+}
+.index ul li a{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 10px;
+    font-family:'Fredericka the Great', cursive;
+    font-size: 30px;
+    color: #533512;
+  }
+}
+

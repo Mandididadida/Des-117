@@ -1,0 +1,508 @@
+#wen {
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #6e7feeec;
+    margin-bottom: 50px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px  auto 30px auto;
+  color: #ffffff;
+  background-image: url("images/arorua.jpg");
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  /* background-image: url(images/staricon.JPG); */
+}
+
+header {
+  padding: 30px 20px 10px 20px;
+  text-align: center;
+}
+
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+main {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+main div {
+  display: block;
+  border-style: double;
+  /* line-height: 1.6; */
+  font-size: 20px;
+  margin: auto;
+  align-items: center;
+
+  /* margin: 10px 0; */
+  background-color: rgb(255, 255, 255, 0.3);
+  /* background: url(images/frame.jpg); */
+}
+
+/* a {
+  text-decoration: none;
+} */
+
+/* footer {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-size: 18px;
+} */
+
+
+/* 首页 */
+
+.home main {
+  margin-top: 90px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+}
+
+.home > p {
+  text-align: center;
+  /* font-family: 'Patrick Hand', cursive; */
+}
+
+.home > p a {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 30px;
+  color: #e97ed9;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.buttonimg{
+/* background: url(images/pink.jpg); */
+background-position: center;
+background-repeat: no-repeat;
+display: block;
+width: 100%;
+height: 100px;
+}
+
+/* 第二页说明页 */
+
+.intro main {
+  margin-top: 60px;
+  width: 60%;
+  /* padding: 30px; */
+  font-family: 'Patrick Hand', cursive;
+  font-size: 30px;
+
+  border: 1px solid rgba(173, 216, 255, 0.5);
+  border-radius: 50px;
+  padding: 30px;
+  font-size: 24px;
+  background-color: #b0baff3d;
+
+}
+
+.intro > p {
+  text-align: center;
+}
+
+.intro > p a {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 26px;
+  color: #eab9fb;
+  background: url(images/pink.jpg);
+  height: auto;
+  width: 300px;
+}
+
+.intro header {
+  text-align: left;
+  padding: 25px 0 10px 40px;
+}
+
+.intro h1 {
+  font-size: 36px;
+  font-family: 'Audiowide', cursive;
+}
+
+.background {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+
+}
+/* choice 页面 */
+
+.choice header {
+  text-align: left;
+
+  /* padding: 25px 0 10px 40px; */
+}
+
+.choice h1 {
+  font-size: 36px;
+  font-family: 'Audiowide', cursive;
+}
+
+.choice main {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  /* font-family: 'Patrick Hand', cursive; */
+  font-size: 30px;
+}
+
+
+
+.choice-grid li {
+  width: 330px;
+  height: 108px;
+  margin-bottom: 28px;
+}
+
+.choice-grid li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;  
+}
+
+.choice-grid li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+
+}
+
+.choice-grid li a p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 110px;
+  text-align: center;
+  color: #7a3d83;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  background-color: #6879e73f;
+
+  font-size: 22px;
+}
+
+.choice a :hover{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 50px;
+}
+
+/*story 页面 */
+
+
+.story header {
+  text-align: left;
+  padding: 25px 0 10px 40px;
+}
+
+.story h1 {
+  font-size: 36px;
+  font-family: 'Audiowide', cursive;
+}
+
+.story main {
+  width: 70%;
+}
+
+.story section img {
+  margin: 30px auto;
+}
+
+.story section:last-of-type {
+  margin-top: 30px;
+}
+
+.story section:last-of-type p {
+  font-size: 24px;
+  margin-bottom: 14px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.story main > p a {
+  display: inline-block;
+  margin-top: 30px;
+  color: #4c63ff;
+  font-size: 24px;
+}
+
+/* achievement 页面 */
+
+.achievement header {
+  text-align: left;
+  padding: 25px 0 10px 40px;
+}
+
+.achievement h1 {
+  font-size: 36px;
+  font-family: 'Audiowide', cursive;
+}
+
+.achievement main {
+  width: 60%;
+  margin-top: 100px;
+}
+
+.achievement main section {
+  border: 1px solid rgba(173, 216, 255, 0.5);
+  border-radius: 50px;
+  padding: 30px;
+  font-size: 24px;
+  background-color: #b0baff3d;
+
+}
+
+.achievement h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.achievement h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.achievement main section {
+  margin-top: 30px;
+  font-family: 'Patrick Hand', cursive;
+  
+}
+
+/* .achievement main section p { */
+  /* display: inline-block; */
+  /* margin: 0 20px; */
+/* } */
+
+.achievement main section a {
+  margin: auto;
+  padding: 12px 30px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 18px;
+  color: #ffffff;
+  display: flex;
+  flex: auto;
+  gap: 14px;
+  justify-content: center;
+  font-family:'Fredericka the Great', cursive;
+  font-size: 24px;
+    /* color: #816a4f; */
+}
+
+footer {
+  width: fit-content;
+  margin: 50px auto 20px auto;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 12px;
+  text-align: center;
+  font-size: 1em;
+  color: #ffffff;
+}
+
+footer p {
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+}
+
+footer a {
+  color: #f2cefa;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #a2bbed;
+}
+
+/* hamburger */
+
+/* body {
+    font-family: Arial;
+    background-color: #ffb6f067;
+} */
+
+header {
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+}
+
+header h1 {
+    text-align: left;
+    margin: 0;
+    padding: 50px 0;
+    font-family: 'Audiowide', cursive;
+}
+
+
+
+
+
+/* NAVIGATION HAMBURGER MENU */
+
+    nav {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    text-align: center;
+    z-index: 1;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+nav ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+
+}
+
+.hidden {
+    right: 5000px;
+}
+
+.showing {
+    right: -10px;
+    width: 200px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+
+    background-color:#f2cefa; 
+    font-size: 20px;
+}
+
+  .choice-grid {
+    margin: auto;
+    max-width: 330px;
+  }
+
+/* 手机适配 */
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 36px;
+    font-family: 'Audiowide', cursive;
+  }
+
+  .lefth1 {
+    font-family: 'Audiowide', cursive;
+  text-align: left;
+
+  }
+  
+.choice-grid {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 760px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  .choice main {
+    width: 90%;
+  }
+
+
+
+  .choice-grid li {
+    /* width: 90%; */
+    max-width: 330px;
+  }
+
+  .intro main,
+  .achievement main,
+  .story main {
+    width: 90%;
+  }
+
+  /* hamburger */
+
+  /* body {
+    font-family: Arial;
+    background-color: #eaeaea;
+} */
+
+header {
+    background-color: #ffbbf931;
+    position: relative;
+}
+
+header h1 {
+    text-align: left;;
+    margin: 0;
+    padding: 50px 0;
+    border: #fdc7ee;
+    border-radius: 30px;
+    font-family: 'Audiowide', cursive;
+}
+h1 {
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+  font-size: 38px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.story section:last-of-type p {
+  font-size: 30px;
+  margin-bottom: 14px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.story h1 {
+  font-size: 38px;
+  font-family: 'Audiowide', cursive;
+}
+}

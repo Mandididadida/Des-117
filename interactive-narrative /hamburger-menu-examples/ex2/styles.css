@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background-color: #eaeaea;
+}
+
+header {
+    background-color: #ccc;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 150px;
+    text-align: right;
+}
+
+nav ul {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    right: 5000px;
+}
+
+.showing {
+    right: -10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 10px 15px;
+    color: black;
+    font-weight: bold;
+}

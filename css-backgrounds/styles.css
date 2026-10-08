@@ -1,0 +1,51 @@
+
+body {
+	font-family: Arial;
+	color:#333;
+}
+
+h1 {
+	margin-bottom: 100px;
+}
+
+h1, h2 {
+	text-align: center;
+}
+
+div {
+	margin: 0 auto 100px auto;
+	width: 960px;
+	height: 200px;
+	background: #ccc;
+}
+
+#box3 {
+	width: 400px;
+	height: 400px;
+}
+
+#box1 {
+
+	background: linear-gradient(180deg, #0C5078 0%, #072F47 87.98%);
+}
+
+#box2 {
+	background: linear-gradient(45deg, #0C517A 31.29%, #6B99A4 49.08%, #072C43 64.08%);
+}
+
+#box3 {
+	background: radial-gradient(50% 50% at 50% 50%, #EBDDB4 17.31%, #EB9833 100%);
+}
+
+#box4 {
+	background: #00AFEC;
+	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.50);
+}
+
+#box5 {
+	background: #00AFEC;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.50) inset;
+}
+#box6 {
+	background: url(images/wov.png);
+}

@@ -1,0 +1,170 @@
+
+.playwrite-nz-basic {
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: url("images/contemporary_china_2.png");
+  margin: auto;
+  color: #2b2b2b;
+}
+
+.portal {
+  background: linear-gradient(180deg,
+    #fdfbff,
+    #f2f6ff);
+  border-radius: 1.5em;
+  padding: 1.5em;
+  border: 0.15em solid #e6e0f5;
+   margin: 20px;
+}
+
+.portal-title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  color: #ffffff;
+
+  background: linear-gradient(
+    135deg,
+    #f8a5c2,
+    #74b9ff
+  );
+
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1.5em;
+}
+
+
+.section-title {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #3c3c6e;
+  margin: 1.2em 0 0.6em 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.portal a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+
+  font-weight: 600;
+  letter-spacing: 0.05em;
+
+  padding: 0.8em;
+  margin-bottom: 0.8em;
+
+  border-radius: 2em;
+  border: 0.15em solid #74b9ff;
+
+  background: linear-gradient(
+    180deg,
+    #ffffff,
+    #f1f6ff
+  );
+
+  color: #ff7675;
+
+}
+
+.portal a:hover {
+  background: linear-gradient(
+    180deg,
+    #ffeaa7,
+    #fab1a0
+  );
+  color: #2d3436;
+  border-color: #f8a5c2;
+}
+
+.about img {
+  max-width: 100%;
+  border-radius: 1em;
+  border: 0.15em solid #e6e0f5;
+  margin-bottom: 1em;
+}
+
+
+p {
+  line-height: 1.6;
+  font-size: 0.95em;
+}
+
+
+
+.footer {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 0.85em;
+  color: #777;
+}
+.footer a {
+  color: #555;
+  text-decoration: none;
+}
+
+@media only screen and (min-width:600px) {
+  header,footer{
+    max-width: 1020px;
+    margin: auto;
+  }    
+  #aboutandmajor{
+    display: flex;
+    /* flex: 3; */
+  }
+
+  #aboutandmajor section{
+    flex: 1;
+  }
+
+  main {
+    max-width: 1020px;
+    margin: auto;
+  }
+
+  #exercisesandtools {
+        display: flex;
+
+  }
+
+  #exercisesandtools section {
+    flex: 1;
+  }
+
+  .bigger {
+    flex: 2;
+  }
+
+
+  /* #tools{
+    display:flex;
+    flex:1;
+  } */
+
+}
+
+/* @media only screen and (min-width:1020px){
+  nav{
+    flex: 1;
+  }
+
+  main{
+    flex: 1;
+    display: flex;
+    gap: 20px;;
+  }
+
+  main article{
+  flex: 1;
+  }
+} */

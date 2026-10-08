@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where Should My Phone Sleep Tonight?</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Fredericka+the+Great&family=Oleo+Script:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="home ">
+    <header>
+        <h1>Where Should My Phone Sleep Tonight?</h1>
+        <nav class="menu">
+            <img src="images/cm.png" alt="menu graphic" id="hamburger">
+            <ul class="hidden">
+                <li><a href="index.html">Landing</a></li>
+                <li><a href="background.html">Introduction</a></li>
+                <li><a href="choice.html">Choice</a></li>
+                <li><a href="bedroom.html">Bedroom Choice</a></li>
+                <li><a href="bedroomachievement.html">Bedroom Ending</a></li>
+                <li><a href="car.html">Car Choice</a></li>
+                <li><a href="carachievement.html">Car Ending</a></li>
+                <li><a href="dining.html">Dining Choice</a></li>
+                <li><a href="diningachievement.html">Dining Ending</a></li>
+                <li><a href="roommate.html">Roommate Choice</a></li>
+                <li><a href="roommateachievement.html">Roommate Ending</a></li>
+                <li><a href="studyroom.html">Studyroom Choice</a></li>
+                <li><a href="studyroomachievement.html">Studyroom Ending</a></li>
+                <li><a href="wardrobe.html">Wardrobe Choice</a></li>
+                <li><a href="wardrobeachievement.html">Wardrobe Ending</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Every night, your phone waits for a place to rest.</p>
+        <img id="wen" src="images/w.jpg" alt="?">
+        <p>Where will it sleep tonight?</p>
+    <!-- <div class="buttonimg"> -->
+        <p><a href="background.html">Click to Start</a></p>
+    <!-- </div> -->
+    </main>
+    <footer class="footer">
+        <!--footer contect-->
+        <p>
+            Designed by Manda
+        </p>
+        <address>
+            Contact: <a href="mailto:&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a>
+        </address>
+   </footer>
+   <script>
+        const hamburger = document.querySelector('#hamburger');
+        const menu = document.querySelector('.menu ul');
+
+        hamburger.addEventListener('click', function() {
+            if (menu.classList.contains('hidden')) {
+                menu.className = 'showing';
+            } else {
+                menu.className = 'hidden';
+            }
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+body{
+color:rgb(8, 93, 62);
+   font-family: Georgia, 'Times New Roman', Times, serif; 
+   background-color: rgb(196, 225, 252);
+}
+
+img{border: 1px solid; color: aqua;}
+
+article{
+    background-color: #fee7e7 ;
+    width: 700px ;
+    border:5px double rgb(254, 209, 252);
+    border-radius: 10px;
+    padding:20px;
+    margin-left:auto;
+    margin-right:auto; 
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    }
+
+h1{
+    color:brown;
+    text-align: center;
+}
+
+h2{color: chocolate;}
+
+h1,h2{
+    border-bottom: 2px rgb(71, 3, 119)dotted;
+    padding: 5px;
+}
+
+a{
+    color: brown;
+    font-size: large;
+}
+p{
+    font-size: 20px;
+    line-height: 20px;
+    /*font-weight:bold; */
+}
+
+nav ul{
+    list-style-type: none ;
+    padding-left: 0;
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    display:block;
+    margin-bottom: 1px solid rgb(41,10,63);
+    margin-bottom: 20px;
+    padding: 1.5em;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgb(253, 239, 250);
+
+    
+}
+
+nav ul li a:hover{
+    color:rgb(90,60,10);
+    background-color: aliceblue;
+
+}
+
+section{margin-bottom: 50px;}
+
+.introduction{
+    font-size: 24px;
+    line-height: 40px;
+    color:darkblue;
+}

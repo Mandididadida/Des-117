@@ -1,0 +1,15 @@
+body {
+    background: url(hypnotize.png);
+}
+
+main {
+    width: 500px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    border:2px solid black;
+    text-align: center;
+}

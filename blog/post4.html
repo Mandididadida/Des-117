@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post 4- Learning Web Design</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Oleo+Script:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="post">
+    <header>
+        <h1>
+            Manda's Blog
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="post3.html">Comparative Analysis</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="post5.html">Web Design Research</a></li>
+        </ul>
+    </nav>
+        <section>
+           <article>
+            <div>
+                <img src="images/mogu.jpg" alt="mogu images">
+            </div>
+            <h2>Post 4: Learning Web Design</h2>
+            <time datetime="2026-02-24">February 24, 2026</time>
+            <p>This week I skimmed Chapters 14–17 of <em>Learning Web Design</em>. Even though I already knew some CSS basics, the book helped me understand layout as a system: boxes, flow, and flexible relationships between elements.</p>
+            <p><strong>Chapter 14</strong> (Thinking Inside the Box) reminded me that layout problems are often spacing problems. Every element is a box, and the final size is shaped by content, padding, border, and margin. Once I started checking margins and padding first, my debugging became much faster.</p>
+            <p><strong>Chapter 15</strong> (Floating and Positioning) was useful for understanding older layout habits and how positioning changes normal flow. Relative positioning felt “safe” for small nudges, but absolute/fixed positioning can easily break a layout if I rely on it too much.</p>
+            <p>The biggest takeaway came from <strong>Chapter 16</strong>: Flexbox and Grid. Flexbox changed how I think about alignment. Instead of manually spacing items with individual margins, I can let the container manage the layout using properties like “justify-content”, “align-items”, and especially <code>gap</code>. It feels cleaner and more predictable.</p>
+            <p><strong>Chapter 17</strong> (Responsive Web Design) connected everything: layouts need to adapt across screens. Responsive design is not just “making things smaller,” but choosing breakpoints intentionally and testing the design as it scales.</p>
+            <img src="images/demoimage.png" alt="demo images">
+            <p>Overall, these chapters helped me see layout as a set of rules and relationships instead of a fixed composition. I’ll use Flexbox/Grid more intentionally in my blog layout and interactive narrative pages moving forward.</p>
+            <!-- <div id="buttons">
+                <p>Manda</p>
+                <p>Contact info:<a href="mailto:&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="../index.html">Link to portal page</a></p>
+                </div> -->
+              </article>
+        </section>
+        <footer>
+            <!-- <div id="buttons"> -->
+                <p>Design by Manda</p>
+                <p>Contact info:<a href="mailto:&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;">&#115;&#106;&#121;&#115;&#104;&#105;&#064;&#117;&#099;&#100;&#097;&#118;&#105;&#115;&#046;&#101;&#100;&#117;</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="../index.html">Link to portal page</a></p>
+            <!-- </div> -->
+        </footer>
+</body>
+</html>
